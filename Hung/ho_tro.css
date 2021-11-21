@@ -485,6 +485,7 @@ article .phone_mail .phone  a{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    text-decoration: none;
 }
 article .phone_mail .mail h3{
     font-size: 22px;
@@ -504,6 +505,7 @@ article .phone_mail .mail  a{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    text-decoration: none;
 }
 /* ============= FOOTER ============= */
 #footer {
