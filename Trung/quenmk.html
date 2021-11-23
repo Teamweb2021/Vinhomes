@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập | Vimhome Oninle</title>
+    <title>Đăng nhập | Vinhomes Online</title>
+    <link rel="shortcut icon" href="./assets/img/Logo_icon/logo-vinhomes.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/styleForm.css">
     <link rel="stylesheet" href="./assets/css/responsiveForm.css">
@@ -79,7 +80,7 @@
                                         <li class="sub-menu-item"><a href="../Tuan/">Phong cách</a>
                                             <div class="line"></div>
                                         </li>
-                                        <li class="sub-menu-item"><a href="">Tin công ty</a>
+                                        <li class="sub-menu-item"><a href="../Tuan/">Tin công ty</a>
                                             <div class="line"></div>
                                         </li>
                                     </ul>
@@ -181,7 +182,7 @@
                         <li class="side-bar-item"><a href="">Quan hệ cổ đông</a></li>
                         <li class="side-bar-item">
                             <div class="drop-head">
-                                <p>Tin tức</p><i class="fas fa-caret-down"></i></div>
+                                <p href="">Tin tức</p><i class="fas fa-caret-down"></i></div>
                             <ul class="drop-container">
                                 <li class="drop-item"><a href="">Ưu đãi khuyến mãi</a></li>
                                 <li class="drop-item"><a href="">Sự kiện</a></li>
@@ -209,7 +210,7 @@
 
         <div class="slider">
             <div class="form">
-                <form action="">
+                <form action="" name="formForgotPass">
                     <h2 class="form__title">
                         Đặt lại mật khẩu
                     </h2>
@@ -217,12 +218,12 @@
                         <a style="text-align: left !important;">Vui lòng nhập địa chỉ email Quý khách đã đăng ký để đặt lại mật khẩu.</a>
                     </div>
                     <div class="form__input">
-                        <input id="input__email--qmk" class="input--relative" required type="email" placeholder="Email">
+                        <input name="email" id="input__email--qmk" class="input--relative" required type="email" placeholder="Email">
                         <i class="far fa-envelope icon--input__form"></i>
                     </div>
 
                     <div class="form__input__btn">
-                        <input onclick="quenmk(this)" type="submit" value="Gửi">
+                        <input onclick="formForgotpassValid(document.forms.formForgotPass);" type="button" value="Gửi">
                     </div>
 
 
@@ -351,7 +352,7 @@
     </div>
     <script src="./assets/javascript/vin.js"></script>
 
-    <script src="./assets/javascript/form.js"></script>
+    <script src="./assets/javascript/formForgotspass.js"></script>
 </body>
 
 </html>
