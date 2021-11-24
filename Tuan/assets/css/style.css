@@ -358,7 +358,7 @@ html {
 /* ============= CONTENT ============= */
 
 #content {
-    background: url('/assets/img/Banner/bg_tin_tuc.png') no-repeat bottom / contain;
+    background: url('../img/Banner/bg_tin_tuc.png') no-repeat bottom / contain;
     padding-bottom: 70px;
     
 }
